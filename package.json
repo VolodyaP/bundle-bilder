@@ -2,16 +2,24 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "build": "vite build"
     },
     "devDependencies": {
-        "autoprefixer": "^10.4.20",
-        "axios": "^1.7.4",
-        "concurrently": "^9.0.1",
+        "@shopify/app-bridge": "^3.7.10",
+        "@shopify/app-bridge-react": "3.7.*",
+        "@shopify/polaris": "^13.6.1",
+        "@vitejs/plugin-react": "^4.3.1",
+        "axios": "^1.6.4",
         "laravel-vite-plugin": "^1.0",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.13",
-        "vite": "^6.0"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "vite": "^5.0"
+    },
+    "dependencies": {
+        "@shopify/cli": "^3.68.1",
+        "@shopify/polaris-icons": "^9.2.0",
+        "@shopify/polaris-viz": "^14.4.0",
+        "react-router-dom": "^6.25.0"
     }
 }

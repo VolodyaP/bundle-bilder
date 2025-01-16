@@ -7,5 +7,5 @@ Route::middleware(
         'verify.shopify'
     ]
 )->group(function () {
-    Route::view('/', 'welcome')->name('home');
+    Route::view('/', 'app')->name('home');
 });
